@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>655757573044-i9u38h1q2ft5v3aonnplpsbsddftvj56.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.655757573044-i9u38h1q2ft5v3aonnplpsbsddftvj56</string>
+	<key>ANDROID_CLIENT_ID</key>
+	<string>655757573044-vlrfbhogf15c4d04nmg5kpt3gbm1er2g.apps.googleusercontent.com</string>
+	<key>API_KEY</key>
+	<string>AIzaSyA20VCw0ShnxazR88QwAq_k77ojeYwq_CU</string>
+	<key>GCM_SENDER_ID</key>
+	<string>655757573044</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.techkushx.techkushxemulator</string>
+	<key>PROJECT_ID</key>
+	<string>techkushxdb</string>
+	<key>STORAGE_BUCKET</key>
+	<string>techkushxdb.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:655757573044:ios:93fa75b72c8adfaf58d0e1</string>
+	<key>DATABASE_URL</key>
+	<string>https://techkushxdb-default-rtdb.firebaseio.com</string>
+</dict>
+</plist>

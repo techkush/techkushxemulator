@@ -1,0 +1,163 @@
+{
+  "project_info": {
+    "project_number": "655757573044",
+    "firebase_url": "https://techkushxdb-default-rtdb.firebaseio.com",
+    "project_id": "techkushxdb",
+    "storage_bucket": "techkushxdb.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:655757573044:android:d33163e98367e5e658d0e1",
+        "android_client_info": {
+          "package_name": "com.techkushx.techkushxdb"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "655757573044-vlrfbhogf15c4d04nmg5kpt3gbm1er2g.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.techkushx.techkushxdb",
+            "certificate_hash": "d39d09944b9a6e6ac685929d3127e3d355696d93"
+          }
+        },
+        {
+          "client_id": "655757573044-ufcbgg1uc85g3qkq512eceq5ls52ohll.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCf5_0pyVchUQMuIL0n6zdx5ADWiXrxcrw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "655757573044-aj96ecij7i8mc098u5uvg0g9003t5iov.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "655757573044-0uk6q2v58k6iktlf8p0uqmi7d0ufmick.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.techkushx.techkushxdesign"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:655757573044:android:81cccf0d086dfb8558d0e1",
+        "android_client_info": {
+          "package_name": "com.techkushx.techkushxdbemu"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "655757573044-ufcbgg1uc85g3qkq512eceq5ls52ohll.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCf5_0pyVchUQMuIL0n6zdx5ADWiXrxcrw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "655757573044-aj96ecij7i8mc098u5uvg0g9003t5iov.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "655757573044-0uk6q2v58k6iktlf8p0uqmi7d0ufmick.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.techkushx.techkushxdesign"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:655757573044:android:017857d2600b8ed758d0e1",
+        "android_client_info": {
+          "package_name": "com.techkushx.techkushxdesign"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "655757573044-ufcbgg1uc85g3qkq512eceq5ls52ohll.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCf5_0pyVchUQMuIL0n6zdx5ADWiXrxcrw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "655757573044-aj96ecij7i8mc098u5uvg0g9003t5iov.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "655757573044-0uk6q2v58k6iktlf8p0uqmi7d0ufmick.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.techkushx.techkushxdesign"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:655757573044:android:f85724f803ca1a1258d0e1",
+        "android_client_info": {
+          "package_name": "com.techkushx.techkushxemulator"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "655757573044-ufcbgg1uc85g3qkq512eceq5ls52ohll.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCf5_0pyVchUQMuIL0n6zdx5ADWiXrxcrw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "655757573044-aj96ecij7i8mc098u5uvg0g9003t5iov.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "655757573044-0uk6q2v58k6iktlf8p0uqmi7d0ufmick.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.techkushx.techkushxdesign"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
