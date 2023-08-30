@@ -37,7 +37,7 @@ void main() async {
   );
 
   // Initialize for Emulator
-  FirebaseFirestore.instance.useFirestoreEmulator('localhost', 8080);
+  FirebaseFirestore.instance.useFirestoreEmulator('localhost', 8090);
   await FirebaseAuth.instance.useAuthEmulator('localhost', 9099);
   await FirebaseStorage.instance.useStorageEmulator('localhost', 9199);
   FirebaseDatabase.instance.useDatabaseEmulator('localhost', 9000);

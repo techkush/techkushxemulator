@@ -4,6 +4,7 @@ import 'package:techkushxemulator/dialogs/add_data.dart';
 import 'package:techkushxemulator/dialogs/snackbar.dart';
 import 'package:techkushxemulator/dialogs/update_date.dart';
 import 'package:techkushxemulator/models/todo_items.dart';
+import 'package:techkushxemulator/screens/firebase_database/transactions.dart';
 
 class RealtimeDatabaseScreen extends StatefulWidget {
   const RealtimeDatabaseScreen({Key? key}) : super(key: key);
@@ -89,34 +90,7 @@ class _RealtimeDatabaseScreenState extends State<RealtimeDatabaseScreen> {
   }
 
 
-  void toggleStar(String uid) async {
-    DatabaseReference postRef =
-    FirebaseDatabase.instance.ref("posts/foo-bar-123");
 
-    TransactionResult result = await postRef.runTransaction((Object? post) {
-      // Ensure a post at the ref exists.
-      if (post == null) {
-        return Transaction.abort();
-      }
-
-      Map<String, dynamic> _post = Map<String, dynamic>.from(post as Map);
-      if (_post["stars"] is Map && _post["stars"][uid] != null) {
-        _post["starCount"] = (_post["starCount"] ?? 1) - 1;
-        _post["stars"][uid] = null;
-      } else {
-        _post["starCount"] = (_post["starCount"] ?? 0) + 1;
-        if (!_post.containsKey("stars")) {
-          _post["stars"] = {};
-        }
-        _post["stars"][uid] = true;
-      }
-
-      // Return the new data.
-      return Transaction.success(_post);
-    });
-
-
-  }
 
   @override
   Widget build(BuildContext context) {
@@ -127,7 +101,10 @@ class _RealtimeDatabaseScreenState extends State<RealtimeDatabaseScreen> {
         actions: [
           IconButton(
               onPressed: () {
-                toggleStar('wef2345');
+                Navigator.push(
+                    context,
+                    MaterialPageRoute(
+                        builder: (context) => const TransactionExampleScreen()));
               },
               icon: const Icon(Icons.transfer_within_a_station)),
           IconButton(
